@@ -42,11 +42,9 @@ header {
 }
 .hero {
     padding: 100px 150px;
-    /* width: 1440px; */
-    /* height: 700px; */
+
     display: flex;
-    /* justify-content: center; */
-    /* flex-direction: column; */
+
     
 }
 h1.hero_text{
@@ -54,7 +52,6 @@ h1.hero_text{
     color: #F9FAF8;
     font-weight: 900;
     margin-bottom: 10px;
-    /* margin-top: 150px; */
 
 }
 div.hero_text{
@@ -76,6 +73,7 @@ div.hero_text{
     margin-top: 10px;
     border: none;
 }
+
 .image {
     width: 600px;
     height: 150px;
@@ -88,4 +86,110 @@ div.hero_text{
     flex-direction: column;
     gap: 8px;
     max-width: 400px;
+}
+.title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.catalog {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-right: 90px;
+}
+.product_desc{
+    font-size: 18px;
+    color: #afb0b4;
+}
+.main_info{
+    margin-bottom: 50px;
+}
+.quote_container{
+    background-color: #e5e7eb;
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.quote_text{
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    width: 700px;
+    margin-top: 80px;
+}
+.author {
+    font-weight: 900px;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    align-self: flex-end;
+}
+.sub_sign {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+.sub_info {
+    border-radius: 10px;
+    background-color: #1e88e5;
+    height: 150px;
+    /* display:flex;
+    justify-content: center; */
+    margin-top: 100px;
+    width: 900px;
+    padding: 30px;
+    display: flex;
+}
+.sub_btn {
+    border-radius: 20px;
+    background-color: #1e88e5;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    border: 2px solid white;
+    margin: 0 auto;
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.sub_text{
+    padding: 20px;
+}
+p.sub_text{
+    font-size: 18px;
+    color: #afb0b4;
+    padding: 0;
+
+}
+.sub_title{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+footer {
+    background-color: #1F2937;
+    width:100%;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+.copy {
+    margin-top: 16px;
 }
